@@ -1,3 +1,4 @@
+# All conversation data store in this db an load for futher continuty
 import sqlite3
 import os
 
