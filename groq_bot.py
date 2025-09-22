@@ -1,3 +1,4 @@
+### Used groq model as u wish
 import os
 from groq import Groq
 from dotenv import load_dotenv
