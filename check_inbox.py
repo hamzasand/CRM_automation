@@ -1,4 +1,4 @@
-# Countineously check attyach email box every minute delay
+# Countineously check attach email box every minute delay
 import imaplib
 import email
 from email.header import decode_header
