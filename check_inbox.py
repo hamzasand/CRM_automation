@@ -1,7 +1,6 @@
 # Countineously check attach email box every minute delay
 import email
 import imaplib
-
 from email.header import decode_header
 from config import EMAIL_ADDRESS, EMAIL_PASSWORD, IMAP_SERVER
 from send_email import send_email
