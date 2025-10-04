@@ -13,5 +13,5 @@ def get_groq_reply(messages):
         )
         return chat_completion.choices[0].message.content
     except Exception as e:
-        print(" Groq API error:", e)
+        print("Groq API error:", e)
         return "Sorry, the assistant is currently unavailable."
