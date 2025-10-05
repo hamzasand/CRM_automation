@@ -9,7 +9,6 @@ from conversation_db import get_conversation, update_conversation
 
 def clean_header(text):
     return text.replace('\r', '').replace('\n', '').strip()
-
 def get_body(msg):
     if msg.is_multipart():
         for part in msg.walk():
