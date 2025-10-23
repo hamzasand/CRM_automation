@@ -23,6 +23,7 @@ def get_conversation(email):
     conn.close()
     return eval(result[0]) if result else []
 
+
 def update_conversation(email, messages):
     conn = sqlite3.connect(DB_FILE)
     c = conn.cursor()
