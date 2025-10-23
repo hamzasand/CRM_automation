@@ -1,4 +1,4 @@
-### Used Groq model as YOU wish
+## Used Groq model as YOU wish
 import os
 from groq import Groq
 from dotenv import load_dotenv
