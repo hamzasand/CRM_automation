@@ -2,6 +2,7 @@
 import os
 
 import sqlite3
+
 DB_FILE = "conversations.db"
 
 def init_db():
